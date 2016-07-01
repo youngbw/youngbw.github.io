@@ -1,0 +1,22 @@
+{
+  "name": "youngbw.github.io",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Brent Young <youngbw@bitbucket.org>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/youngbw/youngbw.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.7"
+  }
+}
