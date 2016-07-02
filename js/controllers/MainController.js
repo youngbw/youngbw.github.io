@@ -22,7 +22,7 @@ angular.module('app').controller('MainController', function($scope, $window) {
 
     $scope.goToUrl = function(destination) {
         if (destination === 'cbs ranks') {
-            window.open('http://www.cbssports.com/fantasy/football/rankings/');
+            window.open('http://www.cbssports.com/fantasy/football/rankings/standard/' + $scope.currentPosition + '/yearly');
         } else if ('nfl ranks') {
             window.open('http://fantasy.nfl.com/research/rankings');
         }
