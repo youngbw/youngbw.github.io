@@ -1,1 +1,32 @@
-<h1>HomePage</h1>
+<div class="page-section" ng-controller="MainController">
+
+    <h2 class="sub-header">Player Rankings</h2>
+
+    <div>
+        <div class="ranks-header-item wrapper" >
+            Current Position Group:
+            <select class="brand-select" ng-model="currentPosition">
+                <option ng-repeat="position in positions">{{position}}</option>
+            </select>
+        </div>
+
+    </div>
+
+
+    <div class="page-left wrapper">
+        <h3>Analyst: Brent Young</h3>
+        <div class="container player-card" ng-mouseenter="onMouseEnter($event)" ng-mouseleave="onMouseLeave($event)" ng-repeat="player in ranks['Brent Young'][currentPosition]">
+            <span class="player-rank right">{{player.rank + 1}}</span>
+            {{player.player}}
+        </div>
+    </div>
+
+    <div class="page-right wrapper">
+        <h3>Analyst: Jon Doyen</h3>
+        <div class="container player-card" ng-repeat="player in ranks['Jon Doyen'][currentPosition]">
+            <span class="player-rank left">{{player.rank + 1}}</span>
+            {{player.player}}
+        </div>
+    </div>
+
+</div>

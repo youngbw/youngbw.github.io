@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+body {
+	background-color: #fff;
+	color: #232323;
+	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+strong {
+	font-weight: bolder;
+	font-size: 1em;
+}
+
 /*html {
   background: url(/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -17,39 +34,96 @@
 	opacity: .5;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 .page-header {
-	font-size: 1.5em;
-	text-align: center;
-
-	background: url(/images/background.jpg);
-	/* Set rules to fill background */
-	min-height: 15%;
-	min-width: 1024px;
-
-	/* Set up proportionate scaling */
+	color: white;
+	background-color: darkblue;
 	width: 100%;
-	height: auto;
-
-	/* Set up positioning */
-	position: fixed;
-	top: 0;
-	left: 0;
-
 	padding: 1em;
 }
 
-body {
-  padding-top: 1em;
+.page-section {
+	padding: 1em;
 }
 
-a {
-  color: #00B7FF;
+.sub-header {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	color: white;
+}
+
+.page-left, .page-right {
+	width: 49%;
+	display: inline-block;
+}
+
+.page-right {
+	float: right;
+	text-align: right;
+}
+
+.player-card {
+	background-color: white;
+	border: 1px solid darkblue;
+}
+
+.player-card:hover {
+	border-color: aqua;
+}
+
+.brand-select {
+	padding: .5em;
+    border-radius: 5px;
+    margin-left: .5em;
+    font-weight: bold;
+    font-size: 1em;
+	cursor: pointer;
+}
+
+.player-rank {
+	margin-right: .5em;
+	font-weight: bold;
+}
+
+.ranks-header-item {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+.wrapper {
+	margin-top: 1em;
+	padding: 1em;
+	background-color: skyblue;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .container {
-    width: 75%;
-    margin: auto;
-    background-color: rgba(25, 25, 25, .5);
+	-webkit-box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
+	box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
     padding: 1em;
+	margin-top: .5em;
     border-radius: 5px;
+}
+
+.page-footer {
+	background-color: darkblue;
+	margin-bottom: -.5em;
+	color: white;
+	font-size: .625em;
+	text-align: center;
+	padding: 1em;
+}
+
+.page-footer p {
+	margin: .2em;
 }
