@@ -6,13 +6,12 @@
 }
 
 body {
-	background-color: #fff;
 	color: #232323;
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	min-width: 800px;
-
+	background-color: rgba(255, 255, 255, .3);
 }
 
 a {
@@ -24,13 +23,13 @@ strong {
 	font-size: 1em;
 }
 
-/*html {
+html {
   background: url(/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 .fade {
 	opacity: .5;
@@ -54,7 +53,7 @@ strong {
 
 .page-header {
 	color: white;
-	background-color: #006996;
+	background-color: rgba(50, 50, 50, .5);
 	width: 100%;
 	padding: 1em;
 	padding-left: 2em;
@@ -161,7 +160,7 @@ span.legend-player {
 .wrapper {
 	margin-top: 1em;
 	padding: 1em;
-	background-color: #006996;
+	background-color: rgba(50, 50, 50, .5);
 	color: white;
 	font-weight: bold;
 	border-radius: 5px;
