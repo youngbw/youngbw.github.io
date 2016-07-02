@@ -10,22 +10,57 @@
             </select>
         </div>
 
-    </div>
+        <div class="legend wrapper">
+            <div class="container player-card">
+                <div class="right">
+                    <span class="player-watch">Watch Candidate</span>
+                    <span class="player-sleeper">Sleeper</span>
+                    <span class="player-diff">
+                        <span class="positive">Difference in </span><span class="negative">Rank</span>
+                    </span>
+                    <span class="player-rank legend-player">Rank</span>
 
-
-    <div class="page-left wrapper">
-        <h3>Analyst: Brent Young</h3>
-        <div class="container player-card" ng-mouseenter="onMouseEnter($event)" ng-mouseleave="onMouseLeave($event)" ng-repeat="player in ranks['Brent Young'][currentPosition]">
-            <span class="player-rank right">{{player.rank + 1}}</span>
-            {{player.player}}
+                </div>
+                <span class="legend-player">Player Name</span>
+            </div>
         </div>
     </div>
 
-    <div class="page-right wrapper">
-        <h3>Analyst: Jon Doyen</h3>
-        <div class="container player-card" ng-repeat="player in ranks['Jon Doyen'][currentPosition]">
-            <span class="player-rank left">{{player.rank + 1}}</span>
-            {{player.player}}
+    <div class="page-left">
+
+        <div class="wrapper">
+            <h3>Analyst: Brent Young</h3>
+
+            <div class="container player-card" ng-repeat="player in ranks['Brent Young'][currentPosition]">
+                <div class="right">
+                    <span class="player-watch" ng-show="player.watcher">W</span>
+                    <span class="player-sleeper" ng-show="player.sleeper">S</span>
+                    <span class="player-diff" ng-show="player.diff !== 0 && player.diff !== null" ng-class="{negative: player.diff < 0, positive: player.diff > 0}">
+                        <span ng-if="player.diff > 0">+</span>{{player.diff}}
+                    </span>
+                    <span class="player-rank">{{player.rank + 1}}</span>
+
+                </div>
+                <span class="player-name">{{player.player}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-right">
+
+        <div class="wrapper">
+            <h3>Analyst: Jon Doyen</h3>
+            <div class="container player-card" ng-repeat="player in ranks['Jon Doyen'][currentPosition]">
+                <div class="left">
+                    <span class="player-rank">{{player.rank + 1}}</span>
+                    <span class="player-diff" ng-show="player.diff !== 0 && player.diff !== null" ng-class="{negative: player.diff < 0, positive: player.diff > 0}">
+                        <span ng-if="player.diff > 0">+</span>{{player.diff}}
+                    </span>
+                    <span class="player-sleeper" ng-show="player.sleeper">S</span>
+                    <span class="player-watch" ng-show="player.watcher">W</span>
+                </div>
+                <span class="player-name">{{player.player}}</span>
+            </div>
         </div>
     </div>
 

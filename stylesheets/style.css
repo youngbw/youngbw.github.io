@@ -11,6 +11,8 @@ body {
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
+	min-width: 800px;
+
 }
 
 a {
@@ -34,6 +36,14 @@ strong {
 	opacity: .5;
 }
 
+.negative {
+	color: red;
+}
+
+.positive {
+	color: green;
+}
+
 .left {
 	float: left;
 }
@@ -44,13 +54,17 @@ strong {
 
 .page-header {
 	color: white;
-	background-color: darkblue;
+	background-color: #006996;
 	width: 100%;
 	padding: 1em;
+	padding-left: 2em;
 }
 
 .page-section {
 	padding: 1em;
+	width: 75%;
+	margin: auto;
+	min-width: 800px;
 }
 
 .sub-header {
@@ -73,6 +87,7 @@ strong {
 .player-card {
 	background-color: white;
 	border: 1px solid darkblue;
+	color: black;
 }
 
 .player-card:hover {
@@ -88,10 +103,55 @@ strong {
 	cursor: pointer;
 }
 
-.player-rank {
-	margin-right: .5em;
+.brand-select option {
 	font-weight: bold;
 }
+
+.player-rank {
+	font-weight: bold;
+	color: black;
+}
+
+.left .player-rank, .left .player-diff, .left .player-watch, .left .player-sleeper {
+	margin-right: 1em;
+	width: 1em;
+}
+
+.right .player-rank, .right .player-diff, .right .player-watch, .right .player-sleeper {
+	margin-left: 1em;
+	width: 1em;
+}
+
+.player-watch {
+	border: 2px solid #006996;
+    padding: .25em;
+    border-radius: 100%;
+    color: #006996;
+    text-align: center;
+}
+
+.player-sleeper {
+	border: 2px solid #cc0099;
+	padding: .25em .35em .25em .35em;
+	color: #cc0099;
+}
+
+.legend span {
+	font-weight: normal;
+	border: none;
+}
+
+span.legend-player {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.legend {
+	display: inline-block;
+	vertical-align: sub;
+}
+
 
 .ranks-header-item {
 	display: inline-block;
@@ -101,15 +161,16 @@ strong {
 .wrapper {
 	margin-top: 1em;
 	padding: 1em;
-	background-color: skyblue;
+	background-color: #006996;
+	color: white;
 	font-weight: bold;
 	border-radius: 5px;
 }
 
 .container {
-	-webkit-box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
-	-moz-box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
-	box-shadow: 3px 1px 23px 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 3px 3px 21px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 3px 21px 0px rgba(0,0,0,1);
+	box-shadow: 3px 3px 21px 0px rgba(0,0,0,1);
     padding: 1em;
 	margin-top: .5em;
     border-radius: 5px;
