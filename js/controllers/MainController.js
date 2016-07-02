@@ -1,4 +1,4 @@
-angular.module('app').controller('MainController', function($scope) {
+angular.module('app').controller('MainController', function($scope, $window) {
 
     $scope.positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
     $scope.analysts = ['Brent Young', 'Jon Doyen'];
@@ -7,6 +7,28 @@ angular.module('app').controller('MainController', function($scope) {
 
     $scope.currentPosition = 'QB';
     $scope.currentAnalyst = 'Brent Young';
+
+
+    $scope.goToADP = function() {
+
+        var ind = $scope.positions.indexOf($scope.currentPosition) + 1;
+        if (ind === 5 || ind === 6) {
+            ind += 2;
+        }
+
+        $window.open('http://fantasy.nfl.com/draftcenter/breakdown?position=' + ind);
+
+    };
+
+    $scope.goToUrl = function(destination) {
+        if (destination === 'cbs ranks') {
+            window.open('http://www.cbssports.com/fantasy/football/rankings/');
+        } else if ('nfl ranks') {
+            window.open('http://fantasy.nfl.com/research/rankings');
+        }
+    };
+
+
 
     $scope.ranks = {
         "Brent Young": {

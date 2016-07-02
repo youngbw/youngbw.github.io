@@ -59,11 +59,36 @@ html {
 	padding-left: 2em;
 }
 
+.sidebar {
+	margin-top: 1em;
+	padding: 1em;
+	max-width: 15%;
+	width: 15%;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.25em;
+	cursor: pointer;
+	color: rgb(0, 105, 150);
+	font-weight: bold;
+}
+
+.page-flow-item {
+	padding: 1em;
+	margin-left: -1.5em;
+	text-align: center;
+}
+
+.page-flow-item:hover {
+	-webkit-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
+	-moz-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
+	box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);	
+}
+
 .page-section {
 	padding: 1em;
-	width: 75%;
-	margin: auto;
+	width: 80%;
 	min-width: 800px;
+	float: right;
 }
 
 .sub-header {
@@ -182,6 +207,7 @@ span.legend-player {
 	font-size: .625em;
 	text-align: center;
 	padding: 1em;
+	clear: both;
 }
 
 .page-footer p {
