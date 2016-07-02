@@ -176,7 +176,7 @@ span.legend-player {
 }
 
 .page-footer {
-	background-color: darkblue;
+	background-color: rgba(50, 50, 50, .5);
 	margin-bottom: -.5em;
 	color: white;
 	font-size: .625em;
