@@ -3,13 +3,16 @@
     <head>
         <title>Fact or Fantasy Football Podcast</title>
         <link rel='stylesheet' href='stylesheets/style.css'/>
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
 
 
     </head>
-    <body ng-app="app">
+    <body ng-app="app" ng-controller="MainController">
 
         <header class="page-header">
-            <h1>Fact or Fantasy Football Podcast</h1>
+            <div class="page-flow-item wrapper" ng-click="goToADP()">ADP Trends</div>
+            <div class="page-flow-item wrapper" ng-click="goToUrl('cbs ranks')">CBSsports Rankings</div>
+            <div class="page-flow-item wrapper" ng-click="goToUrl('nfl ranks')">NFL.com Rankings</div>
         </header>
 
         <div ui-view></div>

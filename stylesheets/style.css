@@ -7,11 +7,11 @@
 
 body {
 	color: #232323;
+	background-color: #404040;
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	min-width: 800px;
-	background-color: rgba(255, 255, 255, .3);
 }
 
 a {
@@ -23,12 +23,59 @@ strong {
 	font-size: 1em;
 }
 
-html {
-  background: url(/images/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+hr {
+	color: white;
+	margin-top: 3em;
+	width: 73%;
+	min-width: 800px;
+}
+
+.fa-twitter-square::before {
+	margin-right: .2em;
+}
+
+.social-item {
+	margin-right: 1em;
+	cursor: pointer;
+}
+
+.social-item:hover {
+	color: aqua;
+}
+
+.social {
+	position: absolute;
+	bottom: -2em;
+	font-weight: normal;
+}
+
+.image-container {
+	position: relative;
+	width: 50%;
+    max-width: 50%;
+	min-height: 200px;
+	background-color: gray;
+}
+
+.bio-image {
+	position: absolute;
+    top: 1em;
+    left: 1em;
+    right: 0;
+    bottom: 1em;
+    background-image: url("/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+}
+
+.bio-text {
+	width: 59%;
+    font-weight: normal;
+    float: right;
+    padding: 1em;
+    padding-top: 0;
+    line-height: 1.35;
 }
 
 .fade {
@@ -53,17 +100,42 @@ html {
 
 .page-header {
 	color: white;
-	background-color: rgba(0, 105, 150, .5);
 	width: 100%;
 	padding: 1em;
 	padding-left: 2em;
 }
 
+.sidebar {
+	margin-top: 1em;
+	padding: 1em;
+	max-width: 15%;
+	width: 15%;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.25em;
+	cursor: pointer;
+	color: rgb(0, 105, 150);
+	font-weight: bold;
+}
+
+.page-flow-item {
+	display: inline-block;
+	background-color: rgba(250, 250, 250, .5);
+	cursor: pointer;
+}
+
+.page-flow-item:hover {
+	-webkit-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
+	-moz-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
+	box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);	
+}
+
 .page-section {
 	padding: 1em;
-	width: 75%;
-	margin: auto;
+	width: 80%;
 	min-width: 800px;
+	margin: auto;
+
 }
 
 .sub-header {
@@ -151,16 +223,14 @@ span.legend-player {
 	vertical-align: sub;
 }
 
-
-.ranks-header-item {
-	display: inline-block;
-	margin-right: 2em;
+.page-section .section-header {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .wrapper {
 	margin-top: 1em;
 	padding: 1em;
-	background-color: rgba(0, 105, 150, .5);
 	color: white;
 	font-weight: bold;
 	border-radius: 5px;
@@ -176,12 +246,12 @@ span.legend-player {
 }
 
 .page-footer {
-	background-color: rgba(0, 105, 150, .5);
 	margin-bottom: -.5em;
 	color: white;
 	font-size: .625em;
 	text-align: center;
 	padding: 1em;
+	clear: both;
 }
 
 .page-footer p {

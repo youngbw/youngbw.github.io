@@ -1,4 +1,4 @@
-angular.module('app').controller('MainController', function($scope) {
+angular.module('app').controller('MainController', function($scope, $window) {
 
     $scope.positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
     $scope.analysts = ['Brent Young', 'Jon Doyen'];
@@ -7,6 +7,37 @@ angular.module('app').controller('MainController', function($scope) {
 
     $scope.currentPosition = 'QB';
     $scope.currentAnalyst = 'Brent Young';
+
+
+    $scope.goToADP = function() {
+
+        var ind = $scope.positions.indexOf($scope.currentPosition) + 1;
+        if (ind === 5 || ind === 6) {
+            ind += 2;
+        }
+
+        $window.open('http://fantasy.nfl.com/draftcenter/breakdown?position=' + ind);
+
+    };
+
+    $scope.goToTwitter = function(name) {
+        if (name === 'Brent') {
+            window.open('https://twitter.com/BrentYoung23');
+        }
+    };
+
+    $scope.goToUrl = function(destination) {
+        if (destination === 'cbs ranks') {
+            window.open('http://www.cbssports.com/fantasy/football/rankings/standard/' + $scope.currentPosition + '/yearly');
+        } else if ('nfl ranks') {
+            window.open('http://fantasy.nfl.com/research/rankings');
+        }
+    };
+
+    $scope.podMessage = 'Thank you for listening to the Fact or Fantasy Football Podcast, and welcome to our page!' +
+     ' We are a couple of normal guys who have a passion for the game, wanted our voices to be heard, and tend to have success in fantasy leagues!' + 
+     ' Our obligation is to our listeners, so we encourage you to interact with us on social media or through email,' + 
+     ' and we will provide quality advice to help you win your leagues!';
 
     $scope.ranks = {
         "Brent Young": {
