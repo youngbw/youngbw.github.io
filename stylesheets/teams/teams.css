@@ -1,0 +1,299 @@
+.cardinals {
+    background-color: #B0063A;
+    color: white;
+    box-sizing: border-box;
+}
+
+.cardinals .with-border {
+    border: 1px solid white;
+}
+
+.jets {
+    background-color: #29433A;
+    color: white;
+    box-sizing: border-box;
+}
+
+.jets .with-border {
+    border: 1px solid white;
+}
+
+.texans {
+    background-color: #00143F;
+    color: white;
+    box-sizing: border-box;
+}
+
+.texans .with-border {
+    border: 1px solid #00143F;
+}
+
+.colts {
+    background-color: #003A70;
+    color: white;
+    box-sizing: border-box;
+}
+
+.colts .with-border {
+    border: 1px solid white;
+}
+
+.packers {
+    background-color: #2A433A;
+    color: white;
+    box-sizing: border-box;
+}
+
+.packers .with-border {
+    border: 1px solid #2A433A;
+}
+
+.cowboys {
+    background-color: #002A5C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.cowboys .with-border {
+    border: 1px solid white;
+}
+
+.seahawks {
+    background-color: #002A5C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.seahawks .with-border {
+    border: 1px solid #002A5C;
+}
+
+.falcons {
+    background-color: #C9243F;
+    color: white;
+    box-sizing: border-box;
+}
+
+.falcons .with-border {
+    border: 1px solid black;
+}
+
+.raiders {
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+}
+
+.raiders .with-border {
+    border: 1px solid #BBC4CA;
+}
+
+.chiefs {
+    background-color: #E51937;
+    color: white;
+    box-sizing: border-box;
+}
+
+.chiefs .with-border {
+    border: 1px solid white;
+}
+
+.patriots {
+    background-color: #002A5C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.patriots .with-border {
+    border: 1px solid #DA2128;
+}
+
+.bengals {
+    background-color: #F04E23;
+    color: white;
+    box-sizing: border-box;
+}
+
+.bengals .with-border {
+    border: 1px solid white;
+}
+
+.dolphins {
+    background-color: #008E97;
+    color: white;
+    box-sizing: border-box;
+}
+
+.dolphins .with-border {
+    border: 1px solid #F58220;
+}
+
+.steelers {
+    background-color: #2F2F2F;
+    color: white;
+    box-sizing: border-box;
+}
+
+.steelers .with-border {
+    border: 1px solid #FFC20E;
+}
+
+.lions {
+    background-color: #006DB0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.lions .with-border {
+    border: 1px solid #B0B7BC;
+}
+
+.rams {
+    background-color: #002A5C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.rams .with-border {
+    border: 1px solid #C6A876;
+}
+
+.bears {
+    background-color: #00123F;
+    color: white;
+    box-sizing: border-box;
+}
+
+.bears .with-border {
+    border: 1px solid #F26522;
+}
+
+.jaguars {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.jaguars .with-border {
+    border: 1px solid #006576;
+}
+
+.saints {
+    background-color: #1C1C1C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.saints .with-border {
+    border: 1px solid #9F8958;
+}
+
+.panthers {
+    background-color: #000016;
+    color: white;
+    box-sizing: border-box;
+}
+
+.panthers .with-border {
+    border: 1px solid #0099D9;
+}
+
+.giants {
+    background-color: #003D7E;
+    color: white;
+    box-sizing: border-box;
+}
+
+.giants .with-border {
+    border: 1px solid #C9243F;
+}
+
+.ravens {
+    background-color: #2C2E8C;
+    color: white;
+    box-sizing: border-box;
+}
+
+.ravens .with-border {
+    border: 1px solid #D2AA41;
+}
+
+.titans {
+    background-color: #4495D1;
+    color: white;
+    box-sizing: border-box;
+}
+
+.titans .with-border {
+    border: 1px solid #DA2128;
+}
+
+.browns {
+    background-color: #FF3C00;
+    color: white;
+    box-sizing: border-box;
+}
+
+.browns .with-border {
+    border: 1px solid #311D00;
+}
+
+.redskins {
+    background-color: #681D13;
+    color: white;
+    box-sizing: border-box;
+}
+
+.redskins .with-border {
+    border: 1px solid black;
+}
+
+.eagles {
+    background-color: #004C54;
+    color: white;
+    box-sizing: border-box;
+}
+
+.eagles .with-border {
+    border: 1px solid black;
+}
+
+.49ers {
+    background-color: #C8AA76;
+    color: white;
+    box-sizing: border-box;
+}
+
+.49ers .with-border {
+    border: 1px solid #C9243F;
+}
+
+.bills {
+    background-color: #005496;
+    color: white;
+    box-sizing: border-box;
+}
+
+.bills .with-border {
+    border: 1px solid #DA2128;
+}
+
+.broncos {
+    background-color: #00295B;
+    color: white;
+    box-sizing: border-box;
+}
+
+.broncos .with-border {
+    border: 1px solid #F26522;
+}
+
+.chargers {
+    background-color: #00295B;
+    color: white;
+    box-sizing: border-box;
+}
+
+.chargers .with-border {
+    border: 1px solid #FFC20E;
+}
