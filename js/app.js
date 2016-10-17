@@ -2,12 +2,12 @@ var myApp = angular.module('app', ['ui.router']);
 
 myApp.config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/team');
 
     $stateProvider
 
-        .state('/home', {
-            url: '/home',
-            templateUrl: 'components/homepage.html'
+        .state('/team', {
+            url: '/team',
+            templateUrl: 'components/teampage.html'
         })
 });
