@@ -30,6 +30,11 @@ hr {
 	min-width: 800px;
 }
 
+.page-header a {
+	color: white;
+	text-decoration: none;
+}
+
 .fa-twitter-square::before {
 	margin-right: .2em;
 }
@@ -127,7 +132,7 @@ hr {
 .page-flow-item:hover {
 	-webkit-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
 	-moz-box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
-	box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);	
+	box-shadow: 3px 3px 21px 0px rgba(150, 150, 150, 1);
 }
 
 .page-section {
@@ -247,11 +252,14 @@ span.legend-player {
 
 .page-footer {
 	margin-bottom: -.5em;
-	color: white;
-	font-size: .625em;
-	text-align: center;
-	padding: 1em;
-	clear: both;
+    margin-top: 5em;
+    color: white;
+    font-size: .625em;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
 }
 
 .page-footer p {

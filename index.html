@@ -11,10 +11,25 @@
     <body ng-app="app" ng-controller="MainController">
 
         <header class="page-header">
-            <div class="page-flow-item wrapper" ng-click="goToADP()">ADP Trends</div>
+            <div class="page-flow-item wrapper"><a href="likes">Likes / Dislikes</a></div>
             <div class="page-flow-item wrapper" ng-click="goToUrl('cbs ranks')">CBSsports Rankings</div>
             <div class="page-flow-item wrapper" ng-click="goToUrl('nfl ranks')">NFL.com Rankings</div>
         </header>
+
+        <div class="page-section wrapper image-container">
+
+            <div class="bio">
+                <div class="bio-image"></div>
+                <div class="bio-text">{{ podMessage }}</div>
+            </div>
+            <div class="social">
+                <span class="social-item">Email: FactOrFantasyPod@gmail.com</span>
+                <span class="social-item fa fa-twitter-square" ng-click="goToTwitter('Brent')" aria-hidden="true">Brent</span>
+                <span class="social-item fa fa-twitter-square" ng-click="goToTwitter('Jon')" aria-hidden="true">Jon</span>
+            </div>
+
+
+        </div>
 
         <div ui-view></div>
 
