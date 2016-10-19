@@ -1,4 +1,13 @@
-<div class="teams-container" ng-controller="TeamController">
+<div class="teams-container page-section" ng-controller="TeamController">
+
+    <div class="page-section">
+
+        <div ng-repeat="record in records" class="tally-section">
+            <div class="record-name">{{record.name}}</div>
+            <div class="record-score">{{record.score[0]}} - {{record.score[1]}}</div>
+        </div>
+
+    </div>
 
     <div ng-repeat="match in matchups" class="matchup">
         <div class="vs-ind">@</div>

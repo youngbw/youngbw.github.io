@@ -7,11 +7,17 @@
 
 body {
 	color: #232323;
-	background-color: #404040;
+	background: url("/images/bg.jpg");
+	background-size: cover;
+	/*background-color: #404040;*/
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	min-width: 800px;
+}
+
+.background {
+
 }
 
 a {
@@ -64,7 +70,7 @@ hr {
 	width: 50%;
     max-width: 50%;
 	min-height: 200px;
-	background-color: gray;
+	background-color: rgba(0, 0, 0, .8);
 }
 
 .bio-image {
@@ -85,7 +91,7 @@ hr {
     float: right;
     padding: 1em;
     padding-top: 0;
-    line-height: 1.35;
+    line-height: 1.2;
 }
 
 .fade {
@@ -130,7 +136,7 @@ hr {
 
 .page-flow-item {
 	display: inline-block;
-	background-color: rgba(250, 250, 250, .5);
+	background-color: rgba(0, 0, 0, .8);
 	cursor: pointer;
 }
 
@@ -239,7 +245,8 @@ span.legend-player {
 }
 
 .wrapper {
-	margin-top: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	padding: 1em;
 	color: white;
 	font-weight: bold;

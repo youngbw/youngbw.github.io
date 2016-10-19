@@ -1,5 +1,16 @@
 angular.module('app').controller('TeamController', function($scope, $window) {
 
+    $scope.records = [
+        {
+            'name': 'Brent',
+            'score': [0, 0], //Brent
+        },
+        {
+            'name': 'Jon',
+            'score': [0, 0], //Jon
+        }
+    ];
+
     $scope.matchups = [
         ['broncos', 'texans'],
         ['bears', 'packers'],
