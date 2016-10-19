@@ -2,11 +2,16 @@
 
     <div ng-repeat="match in matchups" class="matchup">
         <div class="vs-ind">@</div>
-        <div ng-repeat="team in match track by $index" class="match-team {{team}} with-border">
-            <div class="team-name">{{teams[team].name}}</div>
-            <!-- <div ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
+        <div ng-repeat="team in match track by $index" class="team">
+            <div ng-if="$index === 0" ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
                 <img ng-src="{{teams[team].pic}}" alt="team image"/>
-            </div> -->
+            </div>
+            <div class="match-team {{team}} with-border">
+                <div class="team-name">{{teams[team].name}}</div>
+            </div>
+            <div ng-if="$index === 1" ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
+                <img ng-src="{{teams[team].pic}}" alt="team image"/>
+            </div>
         </div>
     </div>
 

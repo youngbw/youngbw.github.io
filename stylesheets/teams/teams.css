@@ -7,7 +7,7 @@
 .match-team {
     font-size: 1.3em;
     font-weight: bold;
-    width: 50%;
+    width: 79%;
     display: inline-block;
     text-align: center;
     padding: .625em;
@@ -16,12 +16,15 @@
 .matchup {
     padding: .2em;
     position: relative;
+    margin: auto;
     margin-bottom: .2em;
+    width: 75%;
+    min-width: 800px;
 }
 
 .vs-ind {
     position: absolute;
-    left: 49%;
+    left: 47.5%;
     font-size: 1em;
     top: 25%;
     background: black;
@@ -34,9 +37,15 @@
     vertical-align: middle;
 }
 
+.team {
+    width: 50%;
+    display: inline-block;
+}
+
 .team-img-left, .team-img-right {
-    max-width: 20%;
-    float: left;
+    max-width: 18%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .team-img-left img, .team-img-right img {
@@ -45,7 +54,7 @@
 }
 
 .team-img-right {
-    float: right;
+    /*float: right;*/
 }
 
 .cardinals {
