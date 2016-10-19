@@ -251,15 +251,13 @@ span.legend-player {
 }
 
 .page-footer {
-	margin-bottom: -.5em;
-    margin-top: 5em;
     color: white;
     font-size: .625em;
     text-align: center;
     padding: 1em;
-    position: fixed;
-    bottom: 0;
-    left: 25%;
+	margin: auto;
+	margin-bottom: -.5em;
+    margin-top: 5em;
 }
 
 .page-footer p {
