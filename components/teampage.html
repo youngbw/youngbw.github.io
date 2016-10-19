@@ -1,0 +1,13 @@
+<div class="teams-container" ng-controller="TeamController">
+
+    <div ng-repeat="match in matchups" class="matchup">
+        <div class="vs-ind">VS</div>
+        <div ng-repeat="team in match track by $index" class="match-team {{team}} with-border">
+            {{teams[team].name}}
+            <div ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
+                <img ng-src="{{teams[team].pic}}" alt="team image"/>
+            </div>
+        </div>
+    </div>
+
+</div>
