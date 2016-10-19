@@ -7,7 +7,7 @@
 
 body {
 	color: #232323;
-	background: url("/images/background.jpg");
+	background: url("/images/bg.jpg");
 	background-size: cover;
 	/*background-color: #404040;*/
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
@@ -70,7 +70,7 @@ hr {
 	width: 50%;
     max-width: 50%;
 	min-height: 200px;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, .5);
 }
 
 .bio-image {
@@ -136,7 +136,7 @@ hr {
 
 .page-flow-item {
 	display: inline-block;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, .5);
 	cursor: pointer;
 }
 
