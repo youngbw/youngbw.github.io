@@ -7,7 +7,7 @@
 
 body {
 	color: #232323;
-	background: url("/images/bg.jpg");
+	background: url("/images/background.jpg");
 	background-size: cover;
 	/*background-color: #404040;*/
 	font-family: "proxima-nova",Arial,Helvetica,sans-serif;
