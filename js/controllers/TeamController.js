@@ -40,19 +40,19 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'chargers': {
             'pic': '/images/logos/chargers.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'San Diego Chargers'
         },
         'texans': {
             'pic': '/images/logos/texans.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Houston Texans'
         },
         'bears': {
             'pic': '/images/logos/bears.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Chicago Bears'
         },
         'packers': {
@@ -69,14 +69,14 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         },
         'rams': {
             'pic': '/images/logos/rams.svg',
-            'jon': 1,
-            'brent': 1,
+            'jon': 0,
+            'brent': 0,
             'name': 'Las Angelas Rams'
         },
         'saints': {
             'pic': '/images/logos/saints.svg',
             'jon': 1,
-            'brent': 1,
+            'brent': 0,
             'name': 'New Orleans Saints'
         },
         'chiefs': {
@@ -94,7 +94,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'titans': {
             'pic': '/images/logos/titans.svg',
             'jon': 1,
-            'brent': 1,
+            'brent': 0,
             'name': 'Tennessee Titans'
         },
         'vikings': {
@@ -106,13 +106,13 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'eagles': {
             'pic': '/images/logos/eagles.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Philidelphia Eagles'
         },
         'browns': {
             'pic': '/images/logos/browns.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Cleveland Browns'
         },
         'bengals': {
@@ -123,13 +123,13 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         },
         'redskins': {
             'pic': '/images/logos/redskins.svg',
-            'jon': 1,
-            'brent': 1,
+            'jon': 0,
+            'brent': 0,
             'name': 'Washington Redskins'
         },
         'lions': {
             'pic': '/images/logos/lions.svg',
-            'jon': 0,
+            'jon': 1,
             'brent': 1,
             'name': 'Detriot Lions'
         },
@@ -142,7 +142,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'jaguars': {
             'pic': '/images/logos/jaguars.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Jacksonville Jaguars'
         },
         'bills': {
@@ -154,7 +154,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'dolphins': {
             'pic': '/images/logos/dolphins.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Miami Dolphins'
         },
         'ravens': {
@@ -166,7 +166,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'jets': {
             'pic': '/images/logos/jets.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'New York Jets'
         },
         'buccaneers': {
@@ -178,13 +178,13 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'ers': {
             'pic': '/images/logos/49ers.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'San Francisco 49ers'
         },
         'chargers': {
             'pic': '/images/logos/chargers.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'San Diego Chargers'
         },
         'falcons': {
@@ -202,13 +202,13 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'steelers': {
             'pic': '/images/logos/steelers.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Pittsburgh Steelers'
         },
         'seahawks': {
             'pic': '/images/logos/seahawks.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'name': 'Seattle Seahawks'
         },
         'cardinals': {
