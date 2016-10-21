@@ -1,13 +1,54 @@
+.wrapper.team-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.homeaway-container {
+    padding-bottom: .5em;
+    font-size: 1.3em;
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+}
+
+.homeaway-container span {
+    padding: .5em;
+}
+
+.pickem {
+    display: inline-block;
+    width: 10%;
+    float: left;
+    background: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.pickem.jon-pick {
+    float: right;
+}
+
+.jon-pick {
+    color: red;
+}
+
+.brent-pick {
+    color: darkblue;
+    background: orange;
+}
+
 .tally-section {
     display: inline-block;
-    font-family: fantasy, sans-serif, serif;
     width: 50%;
     font-size: 3em;
     text-align: center;
 }
 
 .teams-container {
-    padding: 3em;
+    padding: 2em;
+    width: 80%;
+    margin: auto;
     margin-top: 5em;
     color: white;
     background: rgba(0, 0, 0, .5);
@@ -20,29 +61,31 @@
     width: 79%;
     display: inline-block;
     text-align: center;
-    padding: .625em;
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .matchup {
-    padding: .2em;
-    position: relative;
-    margin: auto;
-    margin-bottom: .2em;
-    width: 100%;
+    padding-top: .5em;
 }
 
 .vs-ind {
-    position: absolute;
-    left: 48%;
     font-size: 1em;
-    top: 25%;
     background: black;
     padding: .3em;
+    box-sizing: border-box;
+    display: inline-block;
     border: 2px solid white;
     border-radius: 100px;
 }
 
 .team-name {
+    display: inline-block;
+    max-width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     vertical-align: middle;
 }
 

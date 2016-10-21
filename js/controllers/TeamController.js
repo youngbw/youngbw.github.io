@@ -12,7 +12,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     ];
 
     $scope.matchups = [
-        ['broncos', 'texans'],
+        ['texans', 'broncos'],
         ['bears', 'packers'],
         ['giants', 'rams'],
         ['saints', 'chiefs'],

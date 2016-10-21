@@ -1,6 +1,6 @@
-<div class="teams-container page-section" ng-controller="TeamController">
+<div class="teams-container" ng-controller="TeamController">
 
-    <div class="page-section">
+    <div class="wrapper team-wrap">
 
         <div ng-repeat="record in records" class="tally-section">
             <div class="record-name">{{record.name}}</div>
@@ -9,14 +9,21 @@
 
     </div>
 
-    <div ng-repeat="match in matchups" class="matchup">
+    <div class="homeaway-container">
+        <span>Away</span>
         <div class="vs-ind">@</div>
+        <span>Home</span>
+    </div>
+
+    <div ng-repeat="match in matchups" class="matchup">
         <div ng-repeat="team in match track by $index" class="team">
             <div ng-if="$index === 0" ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
                 <img ng-src="{{teams[team].pic}}" alt="team image"/>
             </div>
             <div class="match-team {{team}} with-border">
+                <div ng-if="teams[team].brent === 1" class="pickem brent-pick">B</div>
                 <div class="team-name">{{teams[team].name}}</div>
+                <div ng-if="teams[team].jon === 1" class="pickem jon-pick">J</div>
             </div>
             <div ng-if="$index === 1" ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
                 <img ng-src="{{teams[team].pic}}" alt="team image"/>
