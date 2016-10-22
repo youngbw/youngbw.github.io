@@ -12,7 +12,6 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     ];
 
     $scope.matchups = [
-        ['texans', 'broncos'],
         ['bears', 'packers'], //added to tally
         ['giants', 'rams'],
         ['saints', 'chiefs'],
@@ -26,7 +25,8 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         ['buccaneers', 'ers'],
         ['chargers', 'falcons'],
         ['patriots', 'steelers'],
-        ['seahawks', 'cardinals']
+        ['seahawks', 'cardinals'],
+        ['texans', 'broncos']
     ];
 
     $scope.finished = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // 1 means game is finished for the week, index lines up with $scope.matchups
