@@ -35,6 +35,17 @@ hr {
 	min-width: 800px;
 }
 
+.download-link {
+	cursor: pointer;
+	color: white;
+	padding-left: 5em;
+	font-size: 1.3em;
+}
+
+.download-link a {
+	color: white;	
+}
+
 .disable {
 	opacity: .5;
 	pointer-events: none;
