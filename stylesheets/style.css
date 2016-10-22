@@ -31,8 +31,7 @@ strong {
 hr {
 	color: white;
 	margin-top: 3em;
-	width: 73%;
-	min-width: 800px;
+	width: 85%;
 }
 
 .download-link {
@@ -43,7 +42,7 @@ hr {
 }
 
 .download-link a {
-	color: white;	
+	color: white;
 }
 
 .disable {
