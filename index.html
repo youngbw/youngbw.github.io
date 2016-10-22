@@ -4,6 +4,7 @@
         <title>Fact or Fantasy Football Podcast</title>
         <link rel='stylesheet' href='stylesheets/style.css'/>
         <link rel='stylesheet' href='stylesheets/teams/teams.css'/>
+        <link rel='stylesheet' href='stylesheets/likes.css'/>
         <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
 
 
@@ -13,7 +14,8 @@
         <div class="background"></div>
 
         <header class="page-header">
-            <div class="page-flow-item wrapper disable"><a href="likes">Likes / Dislikes</a></div>
+            <a class="page-flow-item wrapper" href="#/team">Home</a>
+            <a class="page-flow-item wrapper" href="#/likes">Likes / Dislikes</a>
             <div class="page-flow-item wrapper" ng-click="goToUrl('cbs ranks')">CBSsports Rankings</div>
             <div class="page-flow-item wrapper" ng-click="goToUrl('nfl ranks')">NFL.com Rankings</div>
         </header>
@@ -46,6 +48,7 @@
         <script type='text/javascript' src='js/app.js'></script>
         <script type='text/javascript' src='js/controllers/MainController.js'></script>
         <script type='text/javascript' src='js/controllers/TeamController.js'></script>
+        <script type='text/javascript' src='js/controllers/LikesController.js'></script>
 
     </body>
 </html>
