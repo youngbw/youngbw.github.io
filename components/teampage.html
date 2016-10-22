@@ -15,12 +15,12 @@
         <span>Home</span>
     </div>
 
-    <div ng-repeat="match in matchups" class="matchup">
+    <div ng-repeat="match in matchups track by $index" class="matchup">
         <div ng-repeat="team in match track by $index" class="team">
             <div ng-if="$index === 0" ng-class="{'team-img-left': $index === 0, 'team-img-right': $index === 1}">
                 <img ng-src="{{teams[team].pic}}" alt="team image"/>
             </div>
-            <div class="match-team {{team}} with-border">
+            <div class="match-team {{team}} with-border" ng-class="{finished: finished[$parent.$index] === 1 && teams[team].win === 0, winner: teams[team].win === 1}">
                 <div ng-if="teams[team].brent === 1" class="pickem brent-pick">B</div>
                 <div class="team-name">{{teams[team].name}}</div>
                 <div ng-if="teams[team].jon === 1" class="pickem jon-pick">J</div>
