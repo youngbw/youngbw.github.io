@@ -3,17 +3,17 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     $scope.records = [
         {
             'name': 'Brent',
-            'score': [1, 0], //Brent
+            'score': [2, 0], //Brent
         },
         {
             'name': 'Jon',
-            'score': [1, 0], //Jon
+            'score': [2, 0], //Jon
         }
     ];
 
     $scope.matchups = [
         ['bears', 'packers'], //added to tally
-        ['giants', 'rams'],
+        ['giants', 'rams'], //added
         ['saints', 'chiefs'],
         ['colts', 'titans'],
         ['vikings', 'eagles'],
@@ -29,7 +29,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         ['texans', 'broncos']
     ];
 
-    $scope.finished = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // 1 means game is finished for the week, index lines up with $scope.matchups
+    $scope.finished = [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // 1 means game is finished for the week, index lines up with $scope.matchups
 
     $scope.teams = {
 
@@ -73,7 +73,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'jon': 1,
             'brent': 1,
             'name': 'New York Giants',
-            'win': 0
+            'win': 1
         },
         'rams': {
             'pic': '/images/logos/rams.svg',
