@@ -208,13 +208,6 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'name': 'San Francisco 49ers',
             'win': 0
         },
-        'chargers': {
-            'pic': '/images/logos/chargers.svg',
-            'jon': 0,
-            'brent': 0,
-            'name': 'San Diego Chargers',
-            'win': 0
-        },
         'falcons': {
             'pic': '/images/logos/falcons.svg',
             'jon': 1,
