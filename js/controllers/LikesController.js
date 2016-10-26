@@ -6,37 +6,37 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Cheifs Running Backs (Spencer Ware)',
-                'pic': '/images/players/spencer_ware.jpg',
-                'opponent': 'saints'
+                'name': 'Michael Crabtree',
+                'pic': '/images/players/michael_crabtree.jpg',
+                'opponent': 'buccaneers'
             },
             {
-                'name': 'Hunter Henry',
-                'pic': '/images/players/hunter_henry.jpg',
-                'opponent': 'falcons'
+                'name': 'Michael Floyd',
+                'pic': '/images/players/michael_floyd.jpg',
+                'opponent': 'panthers'
             },
             {
-                'name': 'Demarco Murray',
-                'pic': '/images/players/demarco_murray.jpg',
-                'opponent': 'colts'
+                'name': 'Devonte Booker',
+                'pic': '/images/players/devonte_booker.jpg',
+                'opponent': 'chargers'
             }
         ],
 
         'jon': [
             {
-                'name': 'Marcus Mariota',
-                'pic': '/images/players/marcus_mariota.jpg',
-                'opponent': 'colts'
+                'name': 'Ty Montgomery',
+                'pic': '/images/players/ty_montgomery.jpg',
+                'opponent': 'falcons'
             },
             {
-                'name': 'Kirk Cousins',
-                'pic': '/images/players/kirk_cousins.jpg',
-                'opponent': 'lions'
+                'name': 'Chris Thompson',
+                'pic': '/images/players/chris_thompson.jpg',
+                'opponent': 'bengals'
             },
             {
-                'name': 'Jimmy Graham',
-                'pic': '/images/players/jimmy_graham.jpg',
-                'opponent': 'cardinals'
+                'name': 'Seahawks DEF',
+                'pic': '/images/players/seahawks_defense.jpg',
+                'opponent': 'saints'
             }
         ]
 
@@ -46,37 +46,37 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'DeAndre Hopkins',
-                'pic': '/images/players/deandre_hopkins.jpeg',
+                'name': 'Melvin Gordon',
+                'pic': '/images/players/melvin_gordon.jpg',
                 'opponent': 'broncos'
             },
             {
-                'name': 'All Eagles',
-                'pic': '/images/players/ryan_mathews.jpeg',
-                'opponent': 'vikings'
+                'name': 'Kelvin Benjamin',
+                'pic': '/images/players/kelvin_benjamin.jpg',
+                'opponent': 'cardinals'
             },
             {
-                'name': 'Jay Ajayi',
-                'pic': '/images/players/jay_ajayi.jpg',
-                'opponent': 'bills'
+                'name': 'Bears Running Backs (Jordan Howard)',
+                'pic': '/images/players/jordan_howard.jpg',
+                'opponent': 'vikings'
             }
         ],
 
         'jon': [
             {
-                'name': 'Arian Foster',
-                'pic': '/images/players/arian_foster.jpg',
-                'opponent': 'bills'
+                'name': 'DeAndre Hopkins',
+                'pic': '/images/players/deandre_hopkins.jpg',
+                'opponent': 'lions'
             },
             {
-                'name': 'Jets QB (Geno Smith)',
-                'pic': '/images/players/geno_smith.jpeg',
-                'opponent': 'ravens'
+                'name': 'Matt Jones',
+                'pic': '/images/players/matt_jones.jpg',
+                'opponent': 'bengals'
             },
             {
-                'name': 'Matt Forte',
-                'pic': '/images/players/matt_forte.jpg',
-                'opponent': 'ravens'
+                'name': 'Allen Robinson',
+                'pic': '/images/players/allen_robinson.jpg',
+                'opponent': 'titans'
             }
         ]
 
