@@ -11,9 +11,9 @@ angular.module('app').controller('LikesController', function($scope) {
                 'opponent': 'buccaneers'
             },
             {
-                'name': 'Michael Floyd',
-                'pic': '/images/players/michael_floyd.jpg',
-                'opponent': 'panthers'
+                'name': 'Jaquizz Rodgers',
+                'pic': '/images/players/jaquizz_rodgers.jpg',
+                'opponent': 'raiders'
             },
             {
                 'name': 'Devonte Booker',
