@@ -1,3 +1,8 @@
+.bold-prediction {
+    line-height: 1.2;
+    margin-top: .25em;
+}
+
 .finished {
     opacity: .3;
 }
