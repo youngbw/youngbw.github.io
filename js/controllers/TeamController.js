@@ -3,11 +3,11 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     $scope.records = [
         {
             'name': 'Brent',
-            'score': [24, 9, 2], //Brent
+            'score': [27, 10, 2], //Brent
         },
         {
             'name': 'Jon',
-            'score': [20, 13, 2], //Jon
+            'score': [22, 15, 2], //Jon
         }
     ];
 
@@ -19,15 +19,15 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         ['jaguars', 'chiefs'],  //added
         ['cowboys', 'browns'],  //added
         ['steelers', 'ravens'],  //added
-        ['saints', 'ers'],
-        ['panthers', 'rams'],
-        ['colts', 'packers'],
-        ['titans', 'chargers'],
+        ['saints', 'ers'],//added
+        ['panthers', 'rams'], //added
+        ['colts', 'packers'],//added
+        ['titans', 'chargers'], //added
         ['broncos', 'raiders'],
         ['bills', 'seahawks']
     ];
 
-    $scope.finished = [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]; // 1 means game is finished for the week, index lines up with $scope.matchups
+    $scope.finished = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]; // 1 means game is finished for the week, index lines up with $scope.matchups
 
     $scope.teams = {
 
@@ -43,7 +43,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'jon': 0,
             'brent': 1,
             'name': 'San Diego Chargers',
-            'win': 0
+            'win': 1
         },
         'texans': {
             'pic': '/images/logos/texans.svg',
@@ -85,7 +85,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'jon': 1,
             'brent': 1,
             'name': 'New Orleans Saints',
-            'win': 0
+            'win': 1
         },
         'chiefs': {
             'pic': '/images/logos/chiefs.svg',
@@ -99,7 +99,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'jon': 0,
             'brent': 0,
             'name': 'Indianapolis Colts',
-            'win': 0
+            'win': 1
         },
         'titans': {
             'pic': '/images/logos/titans.svg',
@@ -253,7 +253,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'jon': 1,
             'brent': 1,
             'name': 'Carolina Panthers',
-            'win': 0
+            'win': 1
         }
 
     };
