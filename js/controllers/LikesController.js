@@ -6,37 +6,37 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Davante Adams',
-                'pic': '/images/players/davante_adams.jpg',
-                'opponent': 'colts'
+                'name': 'Zach Ertz',
+                'pic': '/images/players/zach_ertz.jpg',
+                'opponent': 'falcons'
             },
             {
-                'name': 'Charcandrick West',
-                'pic': '/images/players/charcandrick_west.jpg',
-                'opponent': 'jaguars'
+                'name': 'Jay Cutler',
+                'pic': '/images/players/jay_cutler.jpg',
+                'opponent': 'buccaneers'
             },
             {
-                'name': 'Ryan Tannehill',
-                'pic': '/images/players/ryan_tannehill.jpg',
-                'opponent': 'jets'
+                'name': 'Ben Roethlisberger',
+                'pic': '/images/players/ben_roethlisberger.jpg',
+                'opponent': 'cowboys'
             }
         ],
 
         'jon': [
             {
-                'name': 'Dak Prescott',
-                'pic': '/images/players/dak_prescott.jpeg',
-                'opponent': 'browns'
+                'name': 'Will Lutz',
+                'pic': '/images/players/will_lutz.jpg',
+                'opponent': 'broncos'
             },
             {
-                'name': 'Quincy Enunwa',
-                'pic': '/images/players/quincy_enunwa.jpg',
-                'opponent': 'dolphins'
+                'name': 'Julian Edelman',
+                'pic': '/images/players/julian_edelman.jpg',
+                'opponent': 'seahawks'
             },
             {
-                'name': 'Austin Hooper',
-                'pic': '/images/players/austin_hooper.jpg',
-                'opponent': 'buccaneers'
+                'name': 'Delanie Walker',
+                'pic': '/images/players/delanie_walker.jpg',
+                'opponent': 'packers'
             }
         ]
 
@@ -46,37 +46,37 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Jordan Matthews',
-                'pic': '/images/players/jordan_matthews.jpg',
-                'opponent': 'giants'
+                'name': 'Doug Baldwin',
+                'pic': '/images/players/doug_baldwin.jpg',
+                'opponent': 'patriots'
             },
             {
-                'name': 'Frank Gore',
-                'pic': '/images/players/frank_gore.jpg',
-                'opponent': 'packers'
+                'name': 'Greg Olson',
+                'pic': '/images/players/greg_olson.jpg',
+                'opponent': 'chiefs'
             },
             {
-                'name': 'Marvin Jones',
-                'pic': '/images/players/marvin_jones.jpg',
-                'opponent': 'vikings'
+                'name': 'Matt Forte',
+                'pic': '/images/players/matt_forte.jpg',
+                'opponent': 'rams'
             }
         ],
 
         'jon': [
             {
-                'name': 'Derek Carr',
-                'pic': '/images/players/derek_carr.jpg',
-                'opponent': 'broncos'
+                'name': 'DuJuan Harris',
+                'pic': '/images/players/dujuan_harris.jpg',
+                'opponent': 'cardinals'
             },
             {
-                'name': 'Allen Robinson',
-                'pic': '/images/players/allen_robinson.jpg',
-                'opponent': 'chiefs'
+                'name': 'Jarvis Landry in Non-PPR formats',
+                'pic': '/images/players/jarvis_landry.jpg',
+                'opponent': 'chargers'
             },
             {
-                'name': 'Doug Baldwin',
-                'pic': '/images/players/doug_baldwin.jpg',
-                'opponent': 'bills'
+                'name': 'Rob Kelley',
+                'pic': '/images/players/rob_kelley.jpg',
+                'opponent': 'vikings'
             }
         ]
 
