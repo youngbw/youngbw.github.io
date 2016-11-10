@@ -3,11 +3,11 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     $scope.records = [
         {
             'name': 'Brent',
-            'score': [27, 11, 2], //Brent
+            'score': [28, 11, 2], //Brent
         },
         {
             'name': 'Jon',
-            'score': [22, 16, 2], //Jon
+            'score': [23, 16, 2], //Jon
         }
     ];
 
