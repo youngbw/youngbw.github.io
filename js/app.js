@@ -10,8 +10,8 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/team',
             templateUrl: 'components/teampage.html'
         })
-        .state('/likes', {
-            url: '/likes',
-            templateUrl: 'components/likes.html'
-        })
+        // .state('/likes', {
+        //     url: '/likes',
+        //     templateUrl: 'components/likes.html'
+        // })
 });
