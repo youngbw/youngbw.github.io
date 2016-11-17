@@ -15,6 +15,7 @@
 .wrapper.team-wrap {
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .homeaway-container {
@@ -47,6 +48,11 @@
     color: red;
 }
 
+.david-pick {
+    color: lightgreen;
+    background: darkblue;
+}
+
 .brent-pick {
     color: darkblue;
     background: orange;
@@ -54,8 +60,8 @@
 
 .tally-section {
     display: inline-block;
-    width: 50%;
-    font-size: 3em;
+    width: 25%;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -96,7 +102,7 @@
 
 .team-name {
     display: inline-block;
-    max-width: 75%;
+    max-width: 60%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

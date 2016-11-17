@@ -1,16 +1,16 @@
 
-<!-- <div class="teams-container">
+<div class="teams-container">
     <h4>Bold Predictions</h4>
     <div>
         <ul>
-            <li class="bold-prediction"></li>
-            <li class="bold-prediction"></li>
-            <li class="bold-prediction"></li>
-            <li class="bold-prediction"></li>
-            <li class="bold-prediction"></li>
+            <li class="bold-prediction">Cleveland will beat Pittsburgh -- David</li>
+            <li class="bold-prediction">Darren Sproles scores more fantasy points than Ryan Matthews -- David</li>
+            <li class="bold-prediction">Marcus Mariota outscores Cam Newton by 2 points or less -- David</li>
+            <li class="bold-prediction">Eli Rogers has 7 catches and over 100 yards -- Brent</li>
+            <li class="bold-prediction">Jordan Reed and Vernon David both score a TD this week -- Brent</li>
         </ul>
     </div>
-</div> -->
+</div>
 
 
 <div class="teams-container" ng-controller="TeamController">
@@ -37,6 +37,7 @@
             </div>
             <div class="match-team {{team}} with-border" ng-class="{finished: finished[$parent.$index] === 1 && teams[team].win === 0, winner: teams[team].win === 1}">
                 <div ng-if="teams[team].brent === 1" class="pickem brent-pick">B</div>
+                <div ng-if="teams[team].david === 1" class="pickem david-pick">D</div>
                 <div class="team-name">{{teams[team].name}}</div>
                 <div ng-if="teams[team].jon === 1" class="pickem jon-pick">J</div>
             </div>
