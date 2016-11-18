@@ -3,15 +3,15 @@ angular.module('app').controller('TeamController', function($scope, $window) {
     $scope.records = [
         {
             'name': 'Brent',
-            'score': [34, 19, 2], //Brent
+            'score': [34, 20, 2], //Brent
         },
         {
             'name': 'Jon',
-            'score': [30, 23, 2], //Jon
+            'score': [31, 23, 2], //Jon
         },
         {
             'name': 'David',
-            'score': [0, 0, 0], //David
+            'score': [0, 1, 0], //David
         }
     ];
 
@@ -32,7 +32,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         ['texans', 'raiders']
     ];
 
-    $scope.finished = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // 0 means game is finished for the week, index lines up with $scope.matchups
+    $scope.finished = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // 0 means game is finished for the week, index lines up with $scope.matchups
 
     $scope.teams = {
 
@@ -290,7 +290,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
             'brent': 0,
             'david': 0,
             'name': 'Carolina Panthers',
-            'win': 0
+            'win': 1
         }
 
     };
