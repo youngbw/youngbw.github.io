@@ -6,19 +6,19 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Donte Moncrief',
-                'pic': '/images/players/donte_moncrief.jpg',
-                'opponent': 'titans'
+                'name': 'Todd Gurley',
+                'pic': '/images/players/todd_gurley.jpg',
+                'opponent': 'saints'
             },
             {
-                'name': 'Eli Rogers',
-                'pic': '/images/players/eli_rogers.jpg',
-                'opponent': 'browns'
-            },
-            {
-                'name': 'Tyreek Hill',
-                'pic': '/images/players/tyreek_hill.jpg',
+                'name': 'Thomas Rawls',
+                'pic': '/images/players/thomas_rawls.jpg',
                 'opponent': 'buccaneers'
+            },
+            {
+                'name': 'Kelvin Benjamin',
+                'pic': '/images/players/kelvin_benjamin.jpg',
+                'opponent': 'raiders'
             }
         ],
 
@@ -46,19 +46,19 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Giovani Bernard',
-                'pic': '/images/players/giovani_bernard.jpg',
-                'opponent': 'bills'
-            },
-            {
-                'name': 'Cameron Brate',
-                'pic': '/images/players/cameron_brate.jpg',
+                'name': 'Emmanuel Sanders',
+                'pic': '/images/players/emmanuel_sanders.jpg',
                 'opponent': 'chiefs'
             },
             {
-                'name': 'Carlos Hyde',
-                'pic': '/images/players/carlos_hyde.jpg',
-                'opponent': 'patriots'
+                'name': 'LeGarrette Blount',
+                'pic': '/images/players/legarrette_blount.jpg',
+                'opponent': 'jets'
+            },
+            {
+                'name': 'Mohamed Sanu',
+                'pic': '/images/players/mohamed_sanu.jpg',
+                'opponent': 'cardinals'
             }
         ],
 
