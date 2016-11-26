@@ -24,19 +24,19 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'jon': [
             {
-                'name': 'Rishard Matthews',
-                'pic': '/images/players/rishard_matthews.jpg',
-                'opponent': 'rams'
+                'name': 'Sterling Shepard',
+                'pic': '/images/players/sterling_shepard.jpg',
+                'opponent': 'browns'
             },
             {
-                'name': 'Kirk Cousins',
-                'pic': '/images/players/kirk_cousins.jpg',
-                'opponent': 'packers'
+                'name': 'Tevin Coleman',
+                'pic': '/images/players/tevin_coleman.jpg',
+                'opponent': 'cardinals'
             },
             {
-                'name': 'DeAndre Hopkins',
-                'pic': '/images/players/deandre_hopkins.jpg',
-                'opponent': 'raiders'
+                'name': 'DeVante Parker',
+                'pic': '/images/players/devante_parker.jpg',
+                'opponent': 'ers'
             }
         ]
 
@@ -64,19 +64,19 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'jon': [
             {
-                'name': 'Brandin Cooks',
-                'pic': '/images/players/brandin_cooks.jpg',
-                'opponent': 'panthers'
+                'name': 'T.Y. Hilton',
+                'pic': '/images/players/ty_hilton.jpg',
+                'opponent': 'steelers'
             },
             {
-                'name': 'Kendall Wright',
-                'pic': '/images/players/kendall_wright.jpg',
-                'opponent': 'colts'
+                'name': 'Jason Witten',
+                'pic': '/images/players/jason_witten.jpg',
+                'opponent': 'redskins'
             },
             {
-                'name': 'Matt Asiata',
-                'pic': '/images/players/matt_asiata.jpg',
-                'opponent': 'cardinals'
+                'name': 'Tyler Eifert',
+                'pic': '/images/players/tyler_eifert.jpg',
+                'opponent': 'ravens'
             }
         ]
 
