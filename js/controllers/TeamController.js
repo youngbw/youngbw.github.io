@@ -129,7 +129,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'vikings': {
             'pic': '/images/logos/vikings.svg',
             'jon': 1,
-            'brent': 0,
+            'brent': 1,
             'david': 1,
             'name': 'Minnesota Vikings',
             'win': 0
@@ -185,7 +185,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'jaguars': {
             'pic': '/images/logos/jaguars.svg',
             'jon': 0,
-            'brent': 1,
+            'brent': 0,
             'david': 0,
             'name': 'Jacksonville Jaguars',
             'win': 0
@@ -225,7 +225,7 @@ angular.module('app').controller('TeamController', function($scope, $window) {
         'buccaneers': {
             'pic': '/images/logos/buccaneers.svg',
             'jon': 1,
-            'brent': 0,
+            'brent': 1,
             'david': 1,
             'name': 'Tampa Bay Buccaneers',
             'win': 0
