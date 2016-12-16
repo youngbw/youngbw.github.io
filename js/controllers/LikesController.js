@@ -6,19 +6,24 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Demarco Murray',
-                'pic': '/images/players/demarco_murray.jpg',
+                'name': 'Legarrette Blount',
+                'pic': '/images/players/l_blount.jpg',
                 'opponent': 'broncos'
             },
             {
-                'name': 'Jameis Winston',
-                'pic': '/images/players/jameis_winston.jpg',
-                'opponent': 'saints'
+                'name': 'Sammy Watkins',
+                'pic': '/images/players/sammy_watkins.jpg',
+                'opponent': 'browns'
             },
             {
-                'name': 'Jamison Crowder',
-                'pic': '/images/players/jamison_crowder.jpg',
-                'opponent': 'eagles'
+                'name': 'Desean Jackson',
+                'pic': '/images/players/desean_jackson.jpg',
+                'opponent': 'panthers'
+            },
+            {
+                'name': 'Ladarius Green',
+                'pic': '/images/players/l_green.jpg',
+                'opponent': 'bengals'
             }
         ],
 
@@ -46,18 +51,18 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Legarrette Blount',
-                'pic': '/images/players/l_blount.jpg',
-                'opponent': 'ravens'
+                'name': 'Dak Prescott',
+                'pic': '/images/players/dak_prescott.jpg',
+                'opponent': 'buccaneers'
             },
             {
-                'name': 'Ryan Tannehill',
-                'pic': '/images/players/r_tannehill.jpg',
-                'opponent': 'cardinals'
+                'name': 'Tom Brady',
+                'pic': '/images/players/tom_brady.jpg',
+                'opponent': 'broncos'
             },
             {
-                'name': 'Dwayne Allen',
-                'pic': '/images/players/d_allen.jpg',
+                'name': 'Spencer Ware',
+                'pic': '/images/players/s_ware.jpg',
                 'opponent': 'texans'
             }
         ],
