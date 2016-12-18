@@ -68,6 +68,7 @@
 .teams-container {
     padding: 2em;
     width: 80%;
+    max-width: 1000px;
     margin: auto;
     margin-top: 5em;
     color: white;
