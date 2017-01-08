@@ -52,7 +52,10 @@ li.round_winner, li.round_loser, li.round_neutral {
     width: 45%;
     padding: 1em;
     display: inline-block;
-    letter-spacing: .5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
 }
 
 .bracket_team:first-child {
