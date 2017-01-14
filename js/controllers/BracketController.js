@@ -17,7 +17,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'steelers', 'winner': true}, {'name': 'dolphins', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'steelers'
                     },
                     {
                         'teams': [{'name': 'texans', 'winner': true}, {'name': 'raiders', 'winner': false}],
@@ -25,7 +25,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'packers', 'winner': true}, {'name': 'giants', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'packers'
                     }
                 ]
             },
@@ -83,7 +83,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'steelers', 'winner': true}, {'name': 'dolphins', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'steelers'
                     },
                     {
                         'teams': [{'name': 'texans', 'winner': false}, {'name': 'raiders', 'winner': true}],
@@ -91,7 +91,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'packers', 'winner': true}, {'name': 'giants', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'packers'
                     }
                 ]
             },
@@ -149,7 +149,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'steelers', 'winner': false}, {'name': 'dolphins', 'winner': true}],
-                        'actualWinner': ''
+                        'actualWinner': 'steelers'
                     },
                     {
                         'teams': [{'name': 'texans', 'winner': true}, {'name': 'raiders', 'winner': false}],
@@ -157,7 +157,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'packers', 'winner': true}, {'name': 'giants', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'packers'
                     }
                 ]
             },
@@ -215,7 +215,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'steelers', 'winner': true}, {'name': 'dolphins', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'steelers'
                     },
                     {
                         'teams': [{'name': 'texans', 'winner': true}, {'name': 'raiders', 'winner': false}],
@@ -223,7 +223,7 @@ angular.module('app').controller('BracketController', function($scope) {
                     },
                     {
                         'teams': [{'name': 'packers', 'winner': false}, {'name': 'giants', 'winner': true}],
-                        'actualWinner': ''
+                        'actualWinner': 'packers'
                     }
                 ]
             },
