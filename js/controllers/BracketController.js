@@ -34,7 +34,7 @@ angular.module('app').controller('BracketController', function($scope) {
                 'games': [
                     { // game
                         'teams': [{'name': 'falcons', 'winner': true}, {'name': 'seahawks', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'falcons'
                     },
                     {
                         'teams': [{'name': 'cowboys', 'winner': true}, {'name': 'packers', 'winner': false}],
@@ -100,7 +100,7 @@ angular.module('app').controller('BracketController', function($scope) {
                 'games': [
                     { // game
                         'teams': [{'name': 'falcons', 'winner': true}, {'name': 'seahawks', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'falcons'
                     },
                     {
                         'teams': [{'name': 'cowboys', 'winner': false}, {'name': 'packers', 'winner': true}],
@@ -166,7 +166,7 @@ angular.module('app').controller('BracketController', function($scope) {
                 'games': [
                     { // game
                         'teams': [{'name': 'falcons', 'winner': false}, {'name': 'seahawks', 'winner': true}],
-                        'actualWinner': ''
+                        'actualWinner': 'falcons'
                     },
                     {
                         'teams': [{'name': 'cowboys', 'winner': true}, {'name': 'packers', 'winner': false}],
@@ -232,7 +232,7 @@ angular.module('app').controller('BracketController', function($scope) {
                 'games': [
                     { // game
                         'teams': [{'name': 'falcons', 'winner': true}, {'name': 'lions', 'winner': false}],
-                        'actualWinner': ''
+                        'actualWinner': 'falcons'
                     },
                     {
                         'teams': [{'name': 'cowboys', 'winner': false}, {'name': 'giants', 'winner': true}],
