@@ -1,0 +1,25 @@
+<div ng-controller="SuperController" class="teams-container clear">
+	
+	<div class="super_num_top_container">
+		<div ng-repeat="numSet in team1.nums" class="super_num_top horizontal">
+			<img src="{{team1.pic}}" class="team-image">
+			<div ng-repeat="num in numSet track by $index" ng-class="{'trailing-half': $index % 2 == 1}" class="super_half-num">{{num}}</div>
+		</div>
+	</div>
+
+	<div class="super_num_bot_container vertical">
+		<div ng-repeat="numSet in team2.nums" class="super_num_bot">
+			<img src="{{team2.pic}}" class="team-image">
+			<div ng-repeat="num in numSet track by $index" ng-class="{'trailing-half': $index % 2 == 1}" class="super_half-num">{{num}}</div>
+		</div>
+	</div>
+
+	<div class="super_square-container">
+		<div ng-repeat="row in squares track by $index" class="super_square_row">
+			<div ng-repeat="name in row track by $index" class="super_square">
+				{{name}}
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -9,6 +9,10 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/bracket',
             templateUrl: 'components/bracketpage.html'
         })
+        .state('/super', {
+            url: '/super',
+            templateUrl: 'components/superpage.html'
+        })
         // .state('/team', {
         //     url: '/team',
         //     templateUrl: 'components/teampage.html'
