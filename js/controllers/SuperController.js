@@ -15,10 +15,10 @@ angular.module('app').controller('SuperController', function($scope) {
 	};
 
 	$scope.squares = [
-		['', '', '', '', ''],
+		['Brent', '', '', '', 'Brian'],
 		['', '', 'Brent', '', ''],
 		['', 'Dustin', 'Brian', '', ''],
-		['', '', '', '', ''],
+		['', '', '', 'Dustin', ''],
 		['Chase', '', '', '', 'Perry']
 	];
 
