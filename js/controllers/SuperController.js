@@ -19,7 +19,7 @@ angular.module('app').controller('SuperController', function($scope) {
 		['', '', 'Brent', '', ''],
 		['', 'Dustin', 'Brian', '', ''],
 		['', '', '', '', ''],
-		['', '', '', '', '']
+		['Chase', '', '', '', 'Perry']
 	];
 
 });
