@@ -18,8 +18,8 @@ angular.module('app').controller('SuperController', function($scope) {
 		['Brent', '', '', '', 'Brian'],
 		['Dustin', 'Perry', 'Brent', 'Brian', ''],
 		['', 'Dustin', 'Brian', '', 'Brent'],
-		['Perry', 'Chase', 'Chase', 'Dustin', ''],
-		['Chase', '', '', '', 'Perry']
+		['Perry', 'Chase', 'Chase', 'Dustin', 'Brian'],
+		['Chase', 'Brent', 'Dustin', '', 'Perry']
 	];
 
 });
