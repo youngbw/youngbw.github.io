@@ -1,6 +1,7 @@
 angular.module('app').controller('SuperController', function($scope) {
 
 	var peeps = ['Dustin', 'Brent', 'Brian', 'Chase', 'Perry'];
+	var colors = ['pink', 'gold', 'aqua', 'lightgreen', 'red'];
 
 	$scope.team1 = {
 		nums: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
@@ -15,11 +16,11 @@ angular.module('app').controller('SuperController', function($scope) {
 	};
 
 	$scope.squares = [
-		['Brent', '', '', 'Perry', 'Brian'],
+		['Brent', 'Brian', 'Dustin', 'Perry', 'Brian'],
 		['Dustin', 'Perry', 'Brent', 'Brian', 'Chase'],
 		['', 'Dustin', 'Brian', '', 'Brent'],
 		['Perry', 'Chase', 'Chase', 'Dustin', 'Brian'],
-		['Chase', 'Brent', 'Dustin', '', 'Perry']
+		['Chase', 'Brent', 'Dustin', 'Brent', 'Perry']
 	];
 
 });
