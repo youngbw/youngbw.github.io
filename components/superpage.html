@@ -16,7 +16,7 @@
 
 	<div class="super_square-container">
 		<div ng-repeat="row in squares track by $index" class="super_square_row">
-			<div ng-repeat="name in row track by $index" class="super_square">
+			<div ng-repeat="name in row track by $index" class="super_square {{name}}">
 				{{name}}
 			</div>
 		</div>
