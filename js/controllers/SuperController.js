@@ -18,7 +18,7 @@ angular.module('app').controller('SuperController', function($scope) {
 		['Brent', '', '', '', 'Brian'],
 		['Dustin', 'Perry', 'Brent', 'Brian', ''],
 		['', 'Dustin', 'Brian', '', 'Brent'],
-		['', 'Chase', '', 'Dustin', ''],
+		['Perry', 'Chase', 'Chase', 'Dustin', ''],
 		['Chase', '', '', '', 'Perry']
 	];
 
