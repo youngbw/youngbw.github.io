@@ -6,39 +6,44 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Michael Crabtree',
-                'pic': '/images/players/michael_crabtree.jpg',
-                'opponent': 'buccaneers'
+                'name': 'Legarrette Blount',
+                'pic': '/images/players/l_blount.jpg',
+                'opponent': 'broncos'
             },
             {
-                'name': 'Jaquizz Rodgers',
-                'pic': '/images/players/jaquizz_rodgers.jpg',
-                'opponent': 'raiders'
+                'name': 'Sammy Watkins',
+                'pic': '/images/players/sammy_watkins.jpg',
+                'opponent': 'browns'
             },
             {
-                'name': 'Devonte Booker',
-                'pic': '/images/players/devonte_booker.jpg',
-                'opponent': 'chargers'
+                'name': 'Desean Jackson',
+                'pic': '/images/players/desean_jackson.jpg',
+                'opponent': 'panthers'
+            },
+            {
+                'name': 'Ladarius Green',
+                'pic': '/images/players/l_green.jpg',
+                'opponent': 'bengals'
             }
         ],
 
-        'jon': [
-            {
-                'name': 'Ty Montgomery',
-                'pic': '/images/players/ty_montgomery.jpg',
-                'opponent': 'falcons'
-            },
-            {
-                'name': 'Chris Thompson',
-                'pic': '/images/players/chris_thompson.jpg',
-                'opponent': 'bengals'
-            },
-            {
-                'name': 'Seahawks DEF',
-                'pic': '/images/players/seahawks_defense.jpg',
-                'opponent': 'saints'
-            }
-        ]
+         // 'jon': [
+         //     {
+         //         'name': 'Tim Hightower',
+         //         'pic': '/images/players/tim_hightower.jpg',
+         //         'opponent': 'lions'
+         //     },
+         //     {
+         //         'name': 'Jameis Winston',
+         //        'pic': '/images/players/jameis_winston.jpg',
+         //        'opponent': 'chargers'
+         //     },
+         //     {
+         //         'name': 'Cameron Brate',
+         //         'pic': '/images/players/cameron_brate.jpg',
+         //         'opponent': 'chargers'
+         //     }
+         // ]
 
     };
 
@@ -46,39 +51,39 @@ angular.module('app').controller('LikesController', function($scope) {
 
         'brent': [
             {
-                'name': 'Melvin Gordon',
-                'pic': '/images/players/melvin_gordon.jpg',
+                'name': 'Dak Prescott',
+                'pic': '/images/players/dak_prescott.jpg',
+                'opponent': 'buccaneers'
+            },
+            {
+                'name': 'Tom Brady',
+                'pic': '/images/players/tom_brady.jpg',
                 'opponent': 'broncos'
             },
             {
-                'name': 'Kelvin Benjamin',
-                'pic': '/images/players/kelvin_benjamin.jpg',
-                'opponent': 'cardinals'
-            },
-            {
-                'name': 'Bears Running Backs (Jordan Howard)',
-                'pic': '/images/players/jordan_howard.jpg',
-                'opponent': 'vikings'
+                'name': 'Spencer Ware',
+                'pic': '/images/players/s_ware.jpg',
+                'opponent': 'texans'
             }
         ],
 
-        'jon': [
-            {
-                'name': 'DeAndre Hopkins',
-                'pic': '/images/players/deandre_hopkins.jpg',
-                'opponent': 'lions'
-            },
-            {
-                'name': 'Matt Jones',
-                'pic': '/images/players/matt_jones.jpg',
-                'opponent': 'bengals'
-            },
-            {
-                'name': 'Allen Robinson',
-                'pic': '/images/players/allen_robinson.jpg',
-                'opponent': 'titans'
-            }
-        ]
+         // 'jon': [
+         //     {
+         //         'name': 'Jonathan Stewart',
+         //         'pic': '/images/players/jonathan_stewart.jpg',
+         //         'opponent': 'seahawks'
+         //     },
+         //     {
+         //         'name': 'Vernon Davis',
+         //         'pic': '/images/players/vernon_davis.jpg',
+         //         'opponent': 'cardinals'
+         //     },
+         //     {
+         //         'name': 'Emmanuel Sanders',
+         //         'pic': '/images/players/emmanuel_sanders.jpg',
+         //         'opponent': 'jaguars'
+         //     }
+         // ]
 
     };
 

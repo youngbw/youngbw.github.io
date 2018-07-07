@@ -1,7 +1,7 @@
 angular.module('app').controller('MainController', function($scope, $window) {
 
     $scope.positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
-    $scope.analysts = ['Brent Young', 'Jon Doyen'];
+    $scope.analysts = ['Brent Young', 'Jon Doyen', 'David Weaver'];
 
     var brent_ranks, jon_ranks;
 
@@ -25,6 +25,8 @@ angular.module('app').controller('MainController', function($scope, $window) {
             window.open('https://twitter.com/BrentYoung23');
         } else if (name === 'Jon') {
             window.open('https://twitter.com/bucsfanjon');
+        } else if (name === 'David') {
+            window.open('https://twitter.com/theFERR3T');
         }
     };
 

@@ -5,6 +5,8 @@
         <link rel='stylesheet' href='stylesheets/style.css'/>
         <link rel='stylesheet' href='stylesheets/teams/teams.css'/>
         <link rel='stylesheet' href='stylesheets/likes.css'/>
+        <link rel='stylesheet' href='stylesheets/brackets.css'/>
+        <link rel='stylesheet' href='stylesheets/super.css'/>
         <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
 
 
@@ -14,11 +16,11 @@
         <div class="background"></div>
 
         <header class="page-header">
-            <a class="page-flow-item wrapper" href="#/team">Home</a>
-            <a class="page-flow-item wrapper" href="#/likes">Likes / Dislikes</a>
-            <div class="page-flow-item wrapper" ng-click="goToUrl('cbs ranks')">CBSsports Rankings</div>
-            <div class="page-flow-item wrapper" ng-click="goToUrl('nfl ranks')">NFL.com Rankings</div>
-            <a class="page-flow-item wrapper" href="http://foffpod.libsyn.com/podcast">Downloads</a>
+            <!-- <a class="page-flow-item wrapper" href="#/team">Home</a> -->
+            <!-- <a class="page-flow-item wrapper" href="#/likes">Likes / Dislikes</a> -->
+            <!-- <div class="page-flow-item wrapper" ng-click="goToUrl('cbs ranks')">CBSsports Rankings</div> -->
+            <!-- <div class="page-flow-item wrapper" ng-click="goToUrl('nfl ranks')">NFL.com Rankings</div> -->
+            <a class="page-flow-item wrapper" href="http://foffpod.libsyn.com/podcast">Official RSS Page</a>
         </header>
 
         <!-- <div class="download-link"><a href="http://foffpod.libsyn.com/podcast">Download our Latest Episode!</a></div> -->
@@ -33,6 +35,9 @@
                 <span class="social-item">Email: FactOrFantasyPod@gmail.com</span>
                 <span class="social-item fa fa-twitter-square" ng-click="goToTwitter('Brent')" aria-hidden="true">Brent</span>
                 <span class="social-item fa fa-twitter-square" ng-click="goToTwitter('Jon')" aria-hidden="true">Jon</span>
+                <span class="social-item fa fa-twitter-square" ng-click="goToTwitter('David')" aria-hidden="true">David</span>
+                <span><a class="social-item" href="https://itunes.apple.com/us/podcast/fact-or-fantasy-football-podcast/id1167857671">iTunes</a></span>
+                <span><a class="social-item" href="http://stitcher.com/s?fid=122400&refid=stpr">Stitcher</a></span>
             </div>
 
 
@@ -50,8 +55,10 @@
         <script type='text/javascript' src='bower_components/angular-ui-router/release/angular-ui-router.min.js'></script>
         <script type='text/javascript' src='js/app.js'></script>
         <script type='text/javascript' src='js/controllers/MainController.js'></script>
+        <script type='text/javascript' src='js/controllers/BracketController.js'></script>
         <script type='text/javascript' src='js/controllers/TeamController.js'></script>
         <script type='text/javascript' src='js/controllers/LikesController.js'></script>
+        <script type='text/javascript' src='js/controllers/SuperController.js'></script>
 
     </body>
 </html>

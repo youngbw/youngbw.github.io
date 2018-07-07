@@ -1,3 +1,19 @@
+
+<div class="teams-container">
+    <h4>Bold Predictions</h4>
+    <div>
+        <ul>
+            <li class="bold-prediction">Broncos / Patriots game will be under 30 combined points -- Brent</li>
+            <li class="bold-prediction">Ladarius Green 100+ yards and a TD -- Brent</li>
+            <li class="bold-prediction">Andrew Luck under 13 fantasy points this week -- Brent</li>
+            <li class="bold-prediction">Giants D picks off Stafford 3 times -- Jon</li>
+            <li class="bold-prediction">Packers put up 30+ points against the bears -- Jon</li>
+            <li class="bold-prediction">Bell continues with his insanity and gets 200+ all purpose yards and 2 scores -- Jon</li>
+        </ul>
+    </div>
+</div>
+
+
 <div class="teams-container" ng-controller="TeamController">
 
     <div class="wrapper team-wrap">
@@ -22,6 +38,7 @@
             </div>
             <div class="match-team {{team}} with-border" ng-class="{finished: finished[$parent.$index] === 1 && teams[team].win === 0, winner: teams[team].win === 1}">
                 <div ng-if="teams[team].brent === 1" class="pickem brent-pick">B</div>
+                <div ng-if="teams[team].david === 1" class="pickem david-pick">D</div>
                 <div class="team-name">{{teams[team].name}}</div>
                 <div ng-if="teams[team].jon === 1" class="pickem jon-pick">J</div>
             </div>
